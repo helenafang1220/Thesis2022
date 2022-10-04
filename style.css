@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'FT88 Expanded';
+    src: url('FT88-Expanded.woff2') format('woff2'),
+        url('FT88-Expanded.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FT88';
+    src: url('FT88-Regular.woff2') format('woff2'),
+        url('FT88-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FT88';
+    src: url('FT88-Bold.woff2') format('woff2'),
+        url('FT88-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FT88 School';
+    src: url('FT88-School.woff2') format('woff2'),
+        url('FT88-School.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    color: white;
+}
+
+@font-face {
+    font-family: 'FT88 Serif';
+    src: url('FT88-Serif.woff2') format('woff2'),
+        url('FT88-Serif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FT88 Gothique';
+    src: url('FT88-Gothique.woff2') format('woff2'),
+        url('FT88-Gothique.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FT88';
+    src: url('FT88-Italic.woff2') format('woff2'),
+        url('FT88-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'pt_monoregular';
+    src: url('webfontkit/ptmono-regular-webfont.woff2') format('woff2'),
+         url('webfontkit/ptmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    text-color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  font-family:'Helvetica';
+  background-color: black;
+  font-size: 100%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.header{
+    margin-top: 5%;
+    
+}
+
+.button {
+  background-color: #A85CF9;
+  font-family:'pt_monoregular';
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 150%;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+
+.button:hover {
+      background-color:#d702eb;
+      transition: 0.1s;
+  }
+
+h1 {
+  font-family: 'FT88 School';
+  font-size: 300%;
+  webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+.image {
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    margin:auto;
+    display:block;
+    /* margin-left: 40%;
+    margin-right: 40%; */
+    }
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+
+/* div {
+  line-height:120%;
+} */
+
+/* iframe {
+    display: block;
+    border-style:none;
+} */
+
+/* grid */
+/* * {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    
+  }
+  
+  .left {
+    width: 300px;
+  }
+  
+  .right {
+    width: 400px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  } 
